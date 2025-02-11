@@ -13,5 +13,5 @@ $records =
 
 
 collection($records)->each(function ($value, $key, $arg) {
-var_dump($value,$key,$arg);
+    var_dump($value, $key, $arg);
 }, 1000);
